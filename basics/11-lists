@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lah --group-directories-first --sort=time ./ ../ /boo
+ls -lah . .. /boot
