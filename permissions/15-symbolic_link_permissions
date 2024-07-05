@@ -1,1 +1,2 @@
 #!/bin/bash
+chown --deference _hello
