@@ -1,2 +1,0 @@
-#!/bin/bash
-echo $(printf "%.1f" $NUM)
