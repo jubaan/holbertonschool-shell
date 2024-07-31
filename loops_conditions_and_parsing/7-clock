@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Displays the time for 12h and 59min
 
-i=0
+i=-1
 j=1
 
 while ((j <= 13));
