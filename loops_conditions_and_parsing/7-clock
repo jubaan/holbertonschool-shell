@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # Displays the time for 12h and 59min
 
-i=-1
+i=1
 j=1
+
+echo "Hour: 0"
 
 while ((j <= 13));
 do
