@@ -8,7 +8,7 @@ file_content=$(cat $path)
 
 while ((i < 10));
 do
-    echo "$file_content | cut -d ':' -f1,3,6"
+    echo "$file_content | cut -d ':' -f1,2,3"
 
     ((i++))
 done
