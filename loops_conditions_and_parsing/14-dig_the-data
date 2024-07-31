@@ -4,4 +4,4 @@
 
 apache_log="./apache-access.log"
 
-awk '{print $1, $9}' $apache_log
+awk '{print $1, $9}' $apache_log | sort | uniq -c | sort -nr
