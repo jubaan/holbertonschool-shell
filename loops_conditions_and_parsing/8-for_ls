@@ -7,5 +7,5 @@ DIRERCTORY=$(ls -1)
 
 for FILE in $DIRERCTORY;
 do
-    echo $FILE | cut -d '-' -f 2-
+    echo "$FILE" | cut -d '-' -f 2-
 done
